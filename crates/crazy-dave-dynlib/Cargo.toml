@@ -1,0 +1,11 @@
+[package]
+name = "crazy-dave-dynlib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["minwindef"] }
+crazy-dave-core = { path = "../crazy-dave-core" }

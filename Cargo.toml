@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "crates/crazy-dave",
+    "crates/crazy-dave-dynlib",
+    "crates/crazy-dave-core",
+]
